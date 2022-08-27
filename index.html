@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script data-consolejs-channel="9f862f89-c3ed-49dc-777a-9660da692cc7" src="https://remotejs.com/agent/agent.js"></script>
+        <script src="./applications/libs/mindar/mindar-image-three.prod.js"></script>
+        <script src="./assignment.js" type="module"></script>
+        <style>
+            html, body{
+                position: relative;
+                margin: 0;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            #ar-div.hidden {
+                opacity:0;
+                width: 0;
+            }
+
+            #ar-div{
+                width: 1000px;
+                height: 1000px;
+                visibility: hidden;
+                background-color: brown;
+                color: white;
+                opacity: 0.8;
+                display: flex;
+                font-size: 100px;
+                justify-content: center;
+                align-items: center;
+                transition: width 1s, opacity 2s;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AR TEST</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       
+        <div id="guitar">
+        </div>
+
+    </body>
+</html>
